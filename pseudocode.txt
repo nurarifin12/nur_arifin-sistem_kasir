@@ -5,12 +5,11 @@ var menu: boolean;
     stok_menu:boolean;
 
     READ menu
-if (menu = true; stok_menu= true ) {
+if (menu = true; stok_menu= true ) THEN
     print:('pesanan diproses')
-}
-else{
+
+else THEN
     print('pesanan diproses')
-}
 
 READ bayar di kasir
 print('customer menerima bon')
