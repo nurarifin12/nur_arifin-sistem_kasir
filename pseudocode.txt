@@ -1,0 +1,16 @@
+program kasir-restoran 
+
+var menu: boolean;
+    nama: string;
+    stok_menu:boolean;
+
+    READ menu
+if (menu = true; stok_menu= true ) THEN
+    print:('pesanan diproses')
+
+else THEN
+    print('pesanan diproses')
+
+READ bayar di kasir
+print('customer menerima bon')
+END
